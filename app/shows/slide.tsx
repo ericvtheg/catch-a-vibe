@@ -1,5 +1,6 @@
 import Link from "next/link";
 import SoundCloudPlayer from "./soundcloud";
+import Image from "next/image";
 
 interface ISlide {
     show: IShow;
@@ -58,7 +59,7 @@ export default function Slide() {
                 </div>
                 <div className="avatar place-content-center">
                     <div className="w-24 rounded-full">
-                        <img src={data.artist.imageUrl} />
+                        <Image src={data.artist.imageUrl} alt={`${data.artist.stageName}`} width={96} height={96} />
                     </div>
                 </div>
                 <h2 className="card-title place-content-center">
