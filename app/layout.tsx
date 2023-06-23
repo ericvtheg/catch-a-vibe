@@ -16,6 +16,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <div className="navbar bg-soundcloud text-primary-content mb-4">
+          <a className="btn btn-ghost normal-case text-xl">Find a Show</a>
+        </div>
         {children}
       </body>
     </html>
