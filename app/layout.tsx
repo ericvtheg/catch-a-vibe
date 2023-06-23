@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Find a show',
+  title: 'Catch a Vibe',
   description: 'Find EDM shows happening near you',
 }
 
@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="navbar bg-primary text-primary-content">
-          <Link href="/" className="btn btn-ghost normal-case text-xl">Find a Show</Link>
+          <Link href="/" className="btn btn-ghost normal-case text-xl">Catch a Vibe</Link>
         </div>
         {children}
       </body>
