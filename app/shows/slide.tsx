@@ -54,7 +54,7 @@ export default function Slide({ backgroundColor }: ISlideProps) {
         }
     }
     return (
-        <div className={`card w-[22rem] ${backgroundColor} h-full`}>
+        <div className={`card ${backgroundColor} h-full`}>
             <div className="card-body">
                 <div className="card-actions justify-end">
                     {data.artist.genres.map(genre => {

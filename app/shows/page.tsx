@@ -24,7 +24,7 @@ export default function Page() {
       {
         Array(4).fill(0).map((_, idx) => {
           return (
-            <SwiperSlide key={idx}>
+            <SwiperSlide key={idx} className='w-[22rem]'>
               <Slide backgroundColor={colors[idx % colors.length]} />
             </SwiperSlide>);
         })
