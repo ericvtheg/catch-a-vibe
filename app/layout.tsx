@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} overflow-hidden`}>
         <div className="navbar bg-primary text-primary-content">
           <Link href="/" className="btn btn-ghost normal-case text-xl">Catch a Vibe</Link>
         </div>

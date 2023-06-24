@@ -54,7 +54,7 @@ export default function Slide({ backgroundColor }: ISlideProps) {
         }
     }
     return (
-        <div className={`card w-96 min-h-[5/6] ${backgroundColor}`}>
+        <div className={`card w-[22rem] ${backgroundColor} h-full`}>
             <div className="card-body">
                 <div className="card-actions justify-end">
                     {data.artist.genres.map(genre => {
@@ -78,8 +78,11 @@ export default function Slide({ backgroundColor }: ISlideProps) {
                     <div className="flex flex-col text-right">
                         <div>{data.show.minAge}</div>
                         <div>{data.show.price === 0 ? "FREE" : data.show.price}</div>
-                        <Link href={data.show.ticketsLink} target="_blank"><div className="link link-primary">Tickets</div></Link>
+                        <Link href={data.show.ticketsLink} target="_blank"><div className="link link-primary ">Tickets</div></Link>
                     </div>
+                    {/* <div className="card-actions justify-end">
+                        <Link href={data.show.ticketsLink} target="_blank"><button className="btn btn-primary">Tickets</button></Link>
+                    </div> */}
                 </div>
             </div>
             <SoundCloudPlayer url={data.soundCloudLink} />
