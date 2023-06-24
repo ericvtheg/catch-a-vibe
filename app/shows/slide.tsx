@@ -78,11 +78,14 @@ export default function Slide({ backgroundColor }: ISlideProps) {
                     <div className="flex flex-col text-right">
                         <div>{data.show.minAge}</div>
                         <div>{data.show.price === 0 ? "FREE" : data.show.price}</div>
-                        <Link href={data.show.ticketsLink} target="_blank"><div className="link link-primary ">Tickets</div></Link>
+                        {/* <Link href={data.show.ticketsLink} target="_blank"><div className="link link-primary ">Tickets</div></Link> */}
                     </div>
-                    {/* <div className="card-actions justify-end">
+                </div>
+                <div className="divider"></div>
+                <div>
+                    <div className="card-actions justify-end">
                         <Link href={data.show.ticketsLink} target="_blank"><button className="btn btn-primary">Tickets</button></Link>
-                    </div> */}
+                    </div>
                 </div>
             </div>
             <SoundCloudPlayer url={data.soundCloudLink} />

@@ -9,7 +9,7 @@ import { EffectCards } from "swiper";
 import 'swiper/css'
 import "swiper/css/effect-cards";
 
-const colors = ["bg-primary", "bg-secondary", "bg-accent", "bg-neutral"];
+const colors = ["bg-secondary", "bg-accent", "bg-neutral"];
 
 export default function Page() {
   return (
