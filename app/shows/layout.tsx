@@ -4,7 +4,7 @@ export default function Layout({
   children: React.ReactNode
 }) {
   return (
-    <div className="m-4">
+    <div className="h-screen m-4">
       {children}
     </div >
   )

@@ -3,5 +3,7 @@
 @tailwind utilities;
 
 .swiper {
-    @apply w-[22rem]
+    @apply w-[22rem];
+    @apply h-5/6;
+    @apply max-h-screen;
 }
