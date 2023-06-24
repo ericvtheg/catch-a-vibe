@@ -2,6 +2,10 @@ import Link from "next/link";
 import SoundCloudPlayer from "./soundcloud";
 import Image from "next/image";
 
+interface ISlideProps {
+    backgroundColor: string;
+}
+
 interface ISlide {
     show: IShow;
     soundCloudLink: string;
@@ -29,7 +33,7 @@ interface IShow {
     ticketsLink: string;
 }
 
-export default function Slide() {
+export default function Slide({ backgroundColor }: ISlideProps) {
     const data: ISlide = {
         soundCloudLink: 'https://soundcloud.com/ericvtheg/sets/golden-features',
         artist: {
@@ -50,7 +54,7 @@ export default function Slide() {
         }
     }
     return (
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className={`card w-96 min-h-[5/6] ${backgroundColor}`}>
             <div className="card-body">
                 <div className="card-actions justify-end">
                     {data.artist.genres.map(genre => {
@@ -78,7 +82,7 @@ export default function Slide() {
                     </div>
                 </div>
             </div>
-            <figure><SoundCloudPlayer url={data.soundCloudLink} /></figure>
+            <SoundCloudPlayer url={data.soundCloudLink} />
         </div >
     );
 }
