@@ -2,10 +2,10 @@
     {
         "genre": "House",
         "artist": "DJ Pace",
-        "pic": "pace.jpg",
+        "pic": "/photos/pace.jpg",
         "song": {
             "name": "My Love of HOUSE MUSIC",
-            "file": "pace_song.mp3"
+            "link": "https://soundcloud.com/djpace/maynimix2k14"
         },
         "show": {
             "price": 0,
@@ -20,21 +20,22 @@
                 "name": "Pattern Bar"
             },
             "link": "https://www.eventbrite.com/e/house-beats-4-happy-hour-weekly-music-experience-tickets-592930811017?aff=ebdsoporgprofile",
-            "date": "2023-06-16T16:00:00-0800",
-            "duration": ""
+            "dateTime": "2023-06-16T16:00:00-0800",
+            "time": "8PM - 2PM",
+            "date": "06/16"
         }
     },
     {
         "genre": "Trance",
         "artist": "Hailene",
-        "pic": "hailene.jpg",
+        "pic": "/photos/hailene.jpg",
         "song": {
             "name": "Million Miles",
-            "file": "haliene_song.mp3"
+            "link": "https://soundcloud.com/halienemusic/million-miles"
         },
         "show": {
             "price": 10,
-            "minAge": "21",
+            "minAge": "21+",
             "name": "Haliene Presents: The Divine Experience",
             "location": {
                 "coords": [
@@ -44,16 +45,18 @@
                 "name": "Fonda Theatre"
             },
             "link": "https://www.axs.com/events/479561/haliene-presents-the-divine-experience-tickets?cid=edmtrain",
-            "date": "2023-06-16T20:00:00-0800"
+            "dateTime": "2023-06-16T20:00:00-0800",
+            "time": "8PM - 2PM",
+            "date": "06/16"
         }
     },
     {
         "genre": "House",
         "artist": "Golden Features",
-        "pic": "golden_features.jpg",
+        "pic": "/photos/golden_features.jpg",
         "song": {
             "name": "Vigil",
-            "file": "golden_features_song.mp3"
+            "link": "https://soundcloud.com/ericvtheg/sets/golden-features"
         },
         "show": {
             "price": 25,
@@ -67,16 +70,18 @@
                 "name": "The Roxy"
             },
             "link": "https://www.axs.com/events/481368/golden-features-tickets",
-            "date": "2023-06-16T21:00:00-0800"
+            "dateTime": "2023-06-16T21:00:00-0800",
+            "time": "8PM - 2PM",
+            "date": "06/16"
         }
     },
     {
         "genre": "House",
         "artist": "Houseium",
-        "pic": "houseium.jpg",
+        "pic": "/photos/houseium.jpg",
         "song": {
             "name": "Mental",
-            "file": "houseium_song.mp3"
+            "link": "https://soundcloud.com/houseium/mental"
         },
         "show": {
             "price": 10,
@@ -90,16 +95,18 @@
                 "name": "PB Avenue"
             },
             "link": "http://www.pbavenue.com/events/",
-            "date": "2023-06-16T21:00:00-0800"
+            "dateTime": "2023-06-16T21:00:00-0800",
+            "time": "8PM - 2PM",
+            "date": "06/16"
         }
     },
     {
         "genre": "Filth",
         "artist": "Crankdat",
-        "pic": "crankdat.jpg",
+        "pic": "/photos/crankdat.jpg",
         "song": {
             "name": "Trap Queen (Remix)",
-            "file": "crankdat_song.mp3"
+            "link": "https://soundcloud.com/crankdatmusic/effin-drugs-crankdat-remix"
         },
         "show": {
             "price": 25,
@@ -113,7 +120,9 @@
                 "name": "Academy"
             },
             "link": "https://www.ticketweb.com/event/crankdat-academy-la-tickets/13050775?irgwc=1&clickid=XsE3jq0eCxyPU-dx962Ty04bUkFxQ20mI1v:UY0&camefrom=CFC_BUYAT_254533&impradid=254533&REFERRAL_ID=tmfeedbuyat254533&wt.mc_id=aff_BUYAT_254533&utm_source=254533-EDM%20Train%20LLC&impradname=EDM%20Train%20LLC&utm_medium=affiliate&ircid=4272",
-            "date": "2023-06-16T22:00:00-0800"
+            "dateTime": "2023-06-16T22:00:00-0800",
+            "time": "8PM - 2PM",
+            "date": "06/16"
         }
     }
 ]

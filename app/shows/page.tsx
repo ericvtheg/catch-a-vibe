@@ -9,6 +9,8 @@ import { EffectCards } from "swiper";
 import 'swiper/css'
 import "swiper/css/effect-cards";
 
+import data from '../../public/data.json';
+
 const colors = ["bg-secondary", "bg-accent", "bg-neutral"];
 
 export default function Page() {
@@ -22,10 +24,32 @@ export default function Page() {
       grabCursor={true}
     >
       {
-        Array(4).fill(0).map((_, idx) => {
+        data.map((data, idx) => {
           return (
             <SwiperSlide key={idx} className='w-[22rem]'>
-              <Slide backgroundColor={colors[idx % colors.length]} />
+              <Slide 
+                backgroundColor={colors[idx % colors.length]} 
+                data={{
+                  soundCloudLink: data.song.link,
+                  artist: {
+                    stageName: data.artist,
+                    genres: [data.genre],
+                    imageUrl: data.pic,
+                  },
+                  show: {
+                    price: data.show.price,
+                    minAge: data.show.minAge as any,
+                    time: data.show.time,
+                    date: data.show.date,
+                    dateTime: new Date(),
+                    ticketsLink: data.show.link,
+                    venue: {
+                      coords: data.show.location.coords as [number, number],
+                      name: data.show.location.name,
+                    }
+                  }
+                }}
+              />
             </SwiperSlide>);
         })
       }

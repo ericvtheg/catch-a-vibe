@@ -4,9 +4,10 @@ import Image from "next/image";
 
 interface ISlideProps {
     backgroundColor: string;
+    data: IData;
 }
 
-interface ISlide {
+interface IData {
     show: IShow;
     soundCloudLink: string;
     artist: IArtist;
@@ -33,26 +34,7 @@ interface IShow {
     ticketsLink: string;
 }
 
-export default function Slide({ backgroundColor }: ISlideProps) {
-    const data: ISlide = {
-        soundCloudLink: 'https://soundcloud.com/ericvtheg/sets/golden-features',
-        artist: {
-            stageName: "Golden Features",
-            genres: ["House"],
-            imageUrl: "/photos/golden_features.jpg"
-        },
-        show: {
-            minAge: "21+",
-            price: 0,
-            date: "06/18",
-            time: "9PM - 2AM",
-            dateTime: new Date(),
-            ticketsLink: "https://www.eventbrite.com/e/house-beats-4-happy-hour-weekly-music-experience-tickets-592930811017?aff=ebdsoporgprofile",
-            venue: {
-                name: "Pattern Bar",
-            }
-        }
-    }
+export default function Slide({ backgroundColor, data }: ISlideProps) {
     return (
         <div className={`card ${backgroundColor} h-full md:max-h-[600px]`}>
             <div className="card-body">
@@ -77,7 +59,7 @@ export default function Slide({ backgroundColor }: ISlideProps) {
                     </div>
                     <div className="flex flex-col text-right">
                         <div>{data.show.minAge}</div>
-                        <div>{data.show.price === 0 ? "FREE" : data.show.price}</div>
+                        <div>{data.show.price === 0 ? "FREE" : `$${data.show.price}`}</div>
                         {/* <Link href={data.show.ticketsLink} target="_blank"><div className="link link-primary ">Tickets</div></Link> */}
                     </div>
                 </div>
