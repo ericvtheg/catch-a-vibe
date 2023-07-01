@@ -46,6 +46,7 @@ export default function Page() {
                     venue: {
                       coords: data.show.location.coords as [number, number],
                       name: data.show.location.name,
+                      area: data.show.location.area,
                     }
                   }
                 }}

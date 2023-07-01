@@ -22,6 +22,7 @@ interface IArtist {
 interface IVenue {
     coords?: [number, number];
     name: string;
+    area: string;
 }
 
 interface IShow {
@@ -60,7 +61,7 @@ export default function Slide({ backgroundColor, data }: ISlideProps) {
                     <div className="flex flex-col text-right">
                         <div>{data.show.minAge}</div>
                         <div>{data.show.price === 0 ? "FREE" : `$${data.show.price}`}</div>
-                        {/* <Link href={data.show.ticketsLink} target="_blank"><div className="link link-primary ">Tickets</div></Link> */}
+                        <div>{data.show.venue.area}</div>
                     </div>
                 </div>
                 <div className="divider"></div>
