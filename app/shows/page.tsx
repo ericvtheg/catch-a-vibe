@@ -46,7 +46,7 @@ export default function Page() {
       initialSlide={currentIndex}
       onActiveIndexChange={updateIndex}
     >
-      {data.slice(0, maxIndex + 2).map((data, idx) => {
+      {data.slice(0, maxIndex + 3).map((data, idx) => {
         return (
           <SwiperSlide key={idx} className="w-[22rem]">
             <Slide
