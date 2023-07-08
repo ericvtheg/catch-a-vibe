@@ -64,10 +64,9 @@ export default function Page() {
                   minAge: data.show.minAge as any,
                   time: data.show.time,
                   date: data.show.date,
-                  dateTime: new Date(),
                   ticketsLink: data.show.link,
                   venue: {
-                    coords: data.show.location.coords as [number, number],
+                    // coords: data.show.location.coords as [number, number],
                     name: data.show.location.name,
                     area: data.show.location.area,
                   },

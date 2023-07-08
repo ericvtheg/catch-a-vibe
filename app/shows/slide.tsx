@@ -21,7 +21,7 @@ interface IArtist {
 }
 
 interface IVenue {
-  coords?: [number, number];
+  // coords: [number, number];
   name: string;
   area: string;
 }
@@ -31,7 +31,6 @@ interface IShow {
   minAge: "All Ages" | "21+" | "18+";
   time: string;
   date: string;
-  dateTime: Date;
   venue: IVenue;
   ticketsLink: string;
 }

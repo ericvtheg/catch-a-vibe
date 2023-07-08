@@ -1,134 +1,156 @@
 [
     {
         "genre": "House",
-        "artist": "DJ Pace",
-        "pic": "/photos/pace.jpg",
+        "artist": "Swavé",
+        "pic": "/photos/swave.png",
         "song": {
-            "name": "My Love of HOUSE MUSIC",
-            "link": "https://soundcloud.com/djpace/maynimix2k14"
+            "link": "https://soundcloud.com/soundsbyswave/swave-llame-pa-verte-edit-1"
+        },
+        "show": {
+            "price": 11.13,
+            "minAge": "21+",
+            "name": "INERTIA: Swavé, Sabrosura Boyz",
+            "location": {
+                "name": "Melrose House",
+                "area": "Hollywood"
+            },
+            "link": "https://dice.fm/event/vqxl7-inertia-swav-sabrosura-boyz-8th-jul-the-melrose-house-hollywood-tickets",
+            "time": "2PM - 8PM",
+            "date": "07/09"
+        }
+    },
+    {
+        "genre": "Snythpop",
+        "artist": "Mystery Skulls",
+        "pic": "/photos/mystery-skulls.png",
+        "song": {
+            "link": "https://soundcloud.com/mysteryskulls/be-with-you"
+        },
+        "show": {
+            "price": 23,
+            "minAge": "21+",
+            "location": {
+                "name": "Telegram Ballroom",
+                "area": "DTLA"
+            },
+            "link": "https://www.facebook.com/events/1192668938074981/",
+            "dateTime": "2023-06-16T20:00:00-0800",
+            "time": "6PM - 12AM",
+            "date": "07/08"
+        }
+    },
+    {
+        "genre": "Trap",
+        "artist": "Dirty Audio",
+        "pic": "/photos/dirty-audio.png",
+        "song": {
+            "link": "https://soundcloud.com/dirtyaudio/bands-feat-gucci-mane"
+        },
+        "show": {
+            "price": 25.31,
+            "minAge": "21+",
+            "location": {
+                "name": "LA Historic Park",
+                "area": "DTLA"
+            },
+            "link": "https://www.eventbrite.com/e/dirty-audio-birdhouse-los-angeles-tickets-667207103407",
+            "time": "7PM - 12AM",
+            "date": "07/08"
+        }
+    },
+    {
+        "genre": "Tech House",
+        "artist": "DuBeats",
+        "pic": "/photos/dubeats.png",
+        "song": {
+            "link": "https://soundcloud.com/dubeatsmusic/rufus-good-n-plenty-dubeats-remix-staybad"
+        },
+        "show": {
+            "price": 12.36,
+            "minAge": "21+",
+            "location": {
+                "name": "Heartbeat",
+                "area": "DTLA"
+            },
+            "link": "https://dice.fm/event/n95xl-label-showcase-denied-music-8th-jul-heartbeat-los-angeles-tickets?pid=d6342b83",
+            "time": "8PM",
+            "date": "07/08"
+        }
+    },
+    {
+        "genre": "Future Bass",
+        "artist": "Sabai",
+        "pic": "/photos/sabai.png",
+        "song": {
+            "link": "https://soundcloud.com/soup_was_here/million-days-sabai-hoang-claire-ridgely-tribute-an-unofficial-pregame-mix"
         },
         "show": {
             "price": 0,
-            "minAge": "21+",
-            "name": "House Beats 4 Happy Hour Friday",
-            "description": "Deep Soul-Sonic House Music | Happy Hour Drinks & Tacos | Free-No Cover",
-            "location": {
-                "coords": [
-                    34.041617,
-                    -118.255258
-                ],
-                "name": "Pattern Bar",
-                "area": "DTLA"
-            },
-            "link": "https://www.eventbrite.com/e/house-beats-4-happy-hour-weekly-music-experience-tickets-592930811017?aff=ebdsoporgprofile",
-            "dateTime": "2023-06-16T16:00:00-0800",
-            "time": "8PM - 2AM",
-            "date": "06/16"
-        }
-    },
-    {
-        "genre": "Trance",
-        "artist": "Hailene",
-        "pic": "/photos/hailene.jpg",
-        "song": {
-            "name": "Million Miles",
-            "link": "https://soundcloud.com/halienemusic/million-miles"
-        },
-        "show": {
-            "price": 10,
-            "minAge": "21+",
-            "name": "Haliene Presents: The Divine Experience",
-            "location": {
-                "coords": [
-                    34.101512,
-                    -118.323029
-                ],
-                "name": "Fonda Theatre",
-                "area": "Hollywood"
-
-            },
-            "link": "https://www.axs.com/events/479561/haliene-presents-the-divine-experience-tickets?cid=edmtrain",
-            "dateTime": "2023-06-16T20:00:00-0800",
-            "time": "8PM - 2AM",
-            "date": "06/16"
-        }
-    },
-    {
-        "genre": "House",
-        "artist": "Golden Features",
-        "pic": "/photos/golden_features.jpg",
-        "song": {
-            "name": "Vigil",
-            "link": "https://soundcloud.com/ericvtheg/sets/golden-features"
-        },
-        "show": {
-            "price": 25,
             "minAge": "All ages",
-            "name": "Golden Features",
             "location": {
-                "coords": [
-                    34.090639,
-                    -118.387998
-                ],
-                "name": "The Roxy",
+                "name": "Roxy Theatre",
                 "area": "West Hollywood"
             },
-            "link": "https://www.axs.com/events/481368/golden-features-tickets",
-            "dateTime": "2023-06-16T21:00:00-0800",
-            "time": "8PM - 2AM",
-            "date": "06/16"
+            "link": "https://www.axs.com/events/479762/sabai-hoang-tickets",
+            "time": "9PM - 2AM",
+            "date": "07/08"
         }
     },
     {
-        "genre": "House",
-        "artist": "Houseium",
-        "pic": "/photos/houseium.jpg",
+        "genre": "Dubstep",
+        "artist": "Snails",
+        "pic": "/photos/snails.png",
         "song": {
-            "name": "Mental",
-            "link": "https://soundcloud.com/houseium/mental"
+            "link": "https://soundcloud.com/officialsnails/set-fire-with-tori-levett"
         },
         "show": {
-            "price": 10,
-            "minAge": "21+",
-            "name": "No Introduction",
+            "price": 22.56,
+            "minAge": "All ages",
             "location": {
-                "coords": [
-                    32.79769,
-                    -117.250483
-                ],
-                "name": "PB Avenue",
-                "area": "Studio City"
+                "name": "Catwalk Club",
+                "area": "DTLA"
             },
-            "link": "http://www.pbavenue.com/events/",
-            "dateTime": "2023-06-16T21:00:00-0800",
-            "time": "8PM - 2AM",
-            "date": "06/16"
+            "link": "https://www.seetickets.us/event/id/550074",
+            "time": "9PM - 3AM",
+            "date": "07/08"
         }
     },
     {
-        "genre": "Filth",
-        "artist": "Crankdat",
-        "pic": "/photos/crankdat.jpg",
+        "genre": "Darkwave",
+        "artist": "Sarin",
+        "pic": "/photos/sarin.png",
         "song": {
-            "name": "Trap Queen (Remix)",
-            "link": "https://soundcloud.com/crankdatmusic/effin-drugs-crankdat-remix"
+            "link": "https://soundcloud.com/sarinvx/learn-to-fight-lethal-aid-x-img32"
         },
         "show": {
-            "price": 25,
-            "minAge": "21+",
-            "name": "Insomniac Presents Crankdat",
+            "price": 19.59,
+            "minAge": "18+",
             "location": {
-                "coords": [
-                    34.101691,
-                    -118.320904
-                ],
-                "name": "Academy",
-                "area": "Hollywood"
+                "name": "Catch One",
+                "area": "Mid City"
             },
-            "link": "https://www.ticketweb.com/event/crankdat-academy-la-tickets/13050775?irgwc=1&clickid=XsE3jq0eCxyPU-dx962Ty04bUkFxQ20mI1v:UY0&camefrom=CFC_BUYAT_254533&impradid=254533&REFERRAL_ID=tmfeedbuyat254533&wt.mc_id=aff_BUYAT_254533&utm_source=254533-EDM%20Train%20LLC&impradname=EDM%20Train%20LLC&utm_medium=affiliate&ircid=4272",
-            "dateTime": "2023-06-16T22:00:00-0800",
-            "time": "8PM - 2AM",
-            "date": "06/16"
+            "link": "https://wl.seetickets.us/event/Sarin-Miliken-Chamber-Cruel-Kiss/555530?afflky=dasbunker",
+            "time": "9PM - 1AM",
+            "date": "07/08"
+        }
+    },
+    {
+        "genre": "Drum and Bass",
+        "artist": "Skeptical",
+        "pic": "/photos/skeptical.png",
+        "song": {
+            "link": "https://soundcloud.com/skeptical/mefjus-sinkhole-skeptical-remix"
+        },
+        "show": {
+            "price": 35,
+            "minAge": "21+",
+            "location": {
+                "name": "Unknown",
+                "area": "Los Angeles"
+            },
+            "link": "https://www.ticketpro.io/noiserevolt/skepticalandcommodo",
+            "time": "9:30PM - 6AM",
+            "date": "07/08"
         }
     }
 ]
