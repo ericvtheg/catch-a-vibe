@@ -1,6 +1,5 @@
 "use client";
 
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Slide from "./slide";
 import { EffectCards } from "swiper";
@@ -20,11 +19,19 @@ export default function Page() {
 
   const updateIndex = (swiperInstance: any) => {
     if (swiperInstance === null) return;
-    const currentIndex = swiperInstance?.activeIndex;
-    setCurrentIndex(currentIndex);
 
-    if (currentIndex > maxIndex) {
-      setMaxIndex(currentIndex);
+    const prevIndex = currentIndex;
+    const scPrev = window.SC.Widget(`player-${prevIndex}`);
+    scPrev.pause();
+
+    const newCurrentIndex = swiperInstance?.activeIndex;
+
+    setCurrentIndex(newCurrentIndex);
+    const sc = window.SC.Widget(`player-${newCurrentIndex}`);
+    sc.play();
+
+    if (newCurrentIndex > maxIndex) {
+      setMaxIndex(newCurrentIndex);
     }
   };
 
