@@ -38,7 +38,7 @@ export default function SoundCloudPlayer({ url, id }: SoundCloudProps) {
   return (
     <iframe
       id={id}
-      allow="autoplay"
+      // allow="autoplay"
       width={width}
       height={visual ? height : "auto"}
       src={src}
